@@ -59,7 +59,7 @@ namespace Pizza_Otomasyonu
         void Temizle()
         {
             cmbEbat.SelectedItem = 0;
-           // listPizzalar.SelectedItem = -1;
+            // listPizzalar.SelectedItem = -1;
 
             foreach (CheckBox ctrl in groupBox1.Controls)
             {
@@ -98,6 +98,8 @@ namespace Pizza_Otomasyonu
             Temizle();
         }
 
+
+
         private void btnOnayla_Click(object sender, EventArgs e)
         {
             decimal toplamTutar = 0;
@@ -108,7 +110,7 @@ namespace Pizza_Otomasyonu
                 adet++;
             }
             lblToplam.Text = toplamTutar.ToString();
-            MessageBox.Show(string.Format("Toplam Sipariş Adediniz: {0} Toplam Sipariş Tutarınız: {1}",adet,toplamTutar));
+            MessageBox.Show(string.Format("Toplam Sipariş Adediniz: {0} Toplam Sipariş Tutarınız: {1}", adet, toplamTutar), "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

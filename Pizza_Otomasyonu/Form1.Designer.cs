@@ -36,28 +36,28 @@
             this.rdbInceKenar = new System.Windows.Forms.RadioButton();
             this.rdbKalinKenar = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.checkBox10 = new System.Windows.Forms.CheckBox();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.checkBox9 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox8 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox7 = new System.Windows.Forms.CheckBox();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
             this.btnHesapla = new System.Windows.Forms.Button();
             this.btnEkle = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.listSepet = new System.Windows.Forms.ListBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.lblToplam = new System.Windows.Forms.Label();
-            this.btnOnayla = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.nudAdet = new System.Windows.Forms.NumericUpDown();
             this.lblTutar = new System.Windows.Forms.Label();
+            this.nudAdet = new System.Windows.Forms.NumericUpDown();
+            this.label8 = new System.Windows.Forms.Label();
+            this.btnOnayla = new System.Windows.Forms.Button();
+            this.lblToplam = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.listSepet = new System.Windows.Forms.ListBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudAdet)).BeginInit();
@@ -162,6 +162,106 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "MALZEMELER";
             // 
+            // checkBox10
+            // 
+            this.checkBox10.AutoSize = true;
+            this.checkBox10.Location = new System.Drawing.Point(171, 155);
+            this.checkBox10.Name = "checkBox10";
+            this.checkBox10.Size = new System.Drawing.Size(94, 24);
+            this.checkBox10.TabIndex = 2;
+            this.checkBox10.Text = "PEYNİR";
+            this.checkBox10.UseVisualStyleBackColor = true;
+            // 
+            // checkBox5
+            // 
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.Location = new System.Drawing.Point(11, 155);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(91, 24);
+            this.checkBox5.TabIndex = 2;
+            this.checkBox5.Text = "ZEYTİN";
+            this.checkBox5.UseVisualStyleBackColor = true;
+            // 
+            // checkBox9
+            // 
+            this.checkBox9.AutoSize = true;
+            this.checkBox9.Location = new System.Drawing.Point(171, 125);
+            this.checkBox9.Name = "checkBox9";
+            this.checkBox9.Size = new System.Drawing.Size(128, 24);
+            this.checkBox9.TabIndex = 2;
+            this.checkBox9.Text = "TON BALIĞI";
+            this.checkBox9.UseVisualStyleBackColor = true;
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(11, 125);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(100, 24);
+            this.checkBox4.TabIndex = 2;
+            this.checkBox4.Text = "ANÇUEZ";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // checkBox8
+            // 
+            this.checkBox8.AutoSize = true;
+            this.checkBox8.Location = new System.Drawing.Point(171, 95);
+            this.checkBox8.Name = "checkBox8";
+            this.checkBox8.Size = new System.Drawing.Size(101, 24);
+            this.checkBox8.TabIndex = 2;
+            this.checkBox8.Text = "MANTAR";
+            this.checkBox8.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(11, 95);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(79, 24);
+            this.checkBox3.TabIndex = 2;
+            this.checkBox3.Text = "MISIR";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox7
+            // 
+            this.checkBox7.AutoSize = true;
+            this.checkBox7.Location = new System.Drawing.Point(169, 65);
+            this.checkBox7.Name = "checkBox7";
+            this.checkBox7.Size = new System.Drawing.Size(89, 24);
+            this.checkBox7.TabIndex = 1;
+            this.checkBox7.Text = "SUCUK";
+            this.checkBox7.UseVisualStyleBackColor = true;
+            // 
+            // checkBox6
+            // 
+            this.checkBox6.AutoSize = true;
+            this.checkBox6.Location = new System.Drawing.Point(169, 35);
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Size = new System.Drawing.Size(88, 24);
+            this.checkBox6.TabIndex = 0;
+            this.checkBox6.Text = "SALAM";
+            this.checkBox6.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(9, 65);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(83, 24);
+            this.checkBox2.TabIndex = 1;
+            this.checkBox2.Text = "SOSİS";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(9, 35);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(154, 24);
+            this.checkBox1.TabIndex = 0;
+            this.checkBox1.Text = "DANA JAMBON";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -238,34 +338,33 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Pizza Sipariş";
             // 
-            // listSepet
+            // lblTutar
             // 
-            this.listSepet.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.listSepet.FormattingEnabled = true;
-            this.listSepet.HorizontalScrollbar = true;
-            this.listSepet.ItemHeight = 20;
-            this.listSepet.Location = new System.Drawing.Point(521, 45);
-            this.listSepet.Name = "listSepet";
-            this.listSepet.Size = new System.Drawing.Size(482, 584);
-            this.listSepet.TabIndex = 12;
+            this.lblTutar.AutoSize = true;
+            this.lblTutar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblTutar.Location = new System.Drawing.Point(361, 657);
+            this.lblTutar.Name = "lblTutar";
+            this.lblTutar.Size = new System.Drawing.Size(27, 20);
+            this.lblTutar.TabIndex = 18;
+            this.lblTutar.Text = "---";
             // 
-            // label6
+            // nudAdet
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(680, 654);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(147, 20);
-            this.label6.TabIndex = 13;
-            this.label6.Text = "TOPLAM TUTAR:";
+            this.nudAdet.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.nudAdet.Location = new System.Drawing.Point(125, 657);
+            this.nudAdet.Name = "nudAdet";
+            this.nudAdet.Size = new System.Drawing.Size(128, 26);
+            this.nudAdet.TabIndex = 17;
             // 
-            // lblToplam
+            // label8
             // 
-            this.lblToplam.AutoSize = true;
-            this.lblToplam.Location = new System.Drawing.Point(833, 654);
-            this.lblToplam.Name = "lblToplam";
-            this.lblToplam.Size = new System.Drawing.Size(27, 20);
-            this.lblToplam.TabIndex = 14;
-            this.lblToplam.Text = "---";
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label8.Location = new System.Drawing.Point(466, 238);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(51, 25);
+            this.label8.TabIndex = 16;
+            this.label8.Text = ">>>";
             // 
             // btnOnayla
             // 
@@ -280,133 +379,34 @@
             this.btnOnayla.UseVisualStyleBackColor = false;
             this.btnOnayla.Click += new System.EventHandler(this.btnOnayla_Click);
             // 
-            // checkBox1
+            // lblToplam
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(9, 35);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(154, 24);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "DANA JAMBON";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.lblToplam.AutoSize = true;
+            this.lblToplam.Location = new System.Drawing.Point(833, 654);
+            this.lblToplam.Name = "lblToplam";
+            this.lblToplam.Size = new System.Drawing.Size(27, 20);
+            this.lblToplam.TabIndex = 14;
+            this.lblToplam.Text = "---";
             // 
-            // checkBox2
+            // label6
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(9, 65);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(83, 24);
-            this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "SOSİS";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(680, 654);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(147, 20);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "TOPLAM TUTAR:";
             // 
-            // checkBox3
+            // listSepet
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(11, 95);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(79, 24);
-            this.checkBox3.TabIndex = 2;
-            this.checkBox3.Text = "MISIR";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(11, 125);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(100, 24);
-            this.checkBox4.TabIndex = 2;
-            this.checkBox4.Text = "ANÇUEZ";
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(11, 155);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(91, 24);
-            this.checkBox5.TabIndex = 2;
-            this.checkBox5.Text = "ZEYTİN";
-            this.checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // checkBox6
-            // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(169, 35);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(88, 24);
-            this.checkBox6.TabIndex = 0;
-            this.checkBox6.Text = "SALAM";
-            this.checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // checkBox7
-            // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(169, 65);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(89, 24);
-            this.checkBox7.TabIndex = 1;
-            this.checkBox7.Text = "SUCUK";
-            this.checkBox7.UseVisualStyleBackColor = true;
-            // 
-            // checkBox8
-            // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(171, 95);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(101, 24);
-            this.checkBox8.TabIndex = 2;
-            this.checkBox8.Text = "MANTAR";
-            this.checkBox8.UseVisualStyleBackColor = true;
-            // 
-            // checkBox9
-            // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(171, 125);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(128, 24);
-            this.checkBox9.TabIndex = 2;
-            this.checkBox9.Text = "TON BALIĞI";
-            this.checkBox9.UseVisualStyleBackColor = true;
-            // 
-            // checkBox10
-            // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Location = new System.Drawing.Point(171, 155);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(94, 24);
-            this.checkBox10.TabIndex = 2;
-            this.checkBox10.Text = "PEYNİR";
-            this.checkBox10.UseVisualStyleBackColor = true;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.Location = new System.Drawing.Point(466, 238);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(51, 25);
-            this.label8.TabIndex = 16;
-            this.label8.Text = ">>>";
-            // 
-            // nudAdet
-            // 
-            this.nudAdet.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.nudAdet.Location = new System.Drawing.Point(125, 657);
-            this.nudAdet.Name = "nudAdet";
-            this.nudAdet.Size = new System.Drawing.Size(128, 26);
-            this.nudAdet.TabIndex = 17;
-            // 
-            // lblTutar
-            // 
-            this.lblTutar.AutoSize = true;
-            this.lblTutar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblTutar.Location = new System.Drawing.Point(361, 657);
-            this.lblTutar.Name = "lblTutar";
-            this.lblTutar.Size = new System.Drawing.Size(27, 20);
-            this.lblTutar.TabIndex = 18;
-            this.lblTutar.Text = "---";
+            this.listSepet.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.listSepet.FormattingEnabled = true;
+            this.listSepet.HorizontalScrollbar = true;
+            this.listSepet.ItemHeight = 20;
+            this.listSepet.Location = new System.Drawing.Point(521, 45);
+            this.listSepet.Name = "listSepet";
+            this.listSepet.Size = new System.Drawing.Size(482, 584);
+            this.listSepet.TabIndex = 12;
             // 
             // Form1
             // 
