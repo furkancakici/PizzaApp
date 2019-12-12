@@ -1,0 +1,10 @@
+C:\Users\Sty\source\repos\Pizza_Otomasyonu\Pizza_Otomasyonu\bin\Debug\Pizza_Otomasyonu.exe.config
+C:\Users\Sty\source\repos\Pizza_Otomasyonu\Pizza_Otomasyonu\bin\Debug\Pizza_Otomasyonu.exe
+C:\Users\Sty\source\repos\Pizza_Otomasyonu\Pizza_Otomasyonu\bin\Debug\Pizza_Otomasyonu.pdb
+C:\Users\Sty\source\repos\Pizza_Otomasyonu\Pizza_Otomasyonu\obj\Debug\Pizza_Otomasyonu.Form1.resources
+C:\Users\Sty\source\repos\Pizza_Otomasyonu\Pizza_Otomasyonu\obj\Debug\Pizza_Otomasyonu.Properties.Resources.resources
+C:\Users\Sty\source\repos\Pizza_Otomasyonu\Pizza_Otomasyonu\obj\Debug\Pizza_Otomasyonu.csproj.GenerateResource.cache
+C:\Users\Sty\source\repos\Pizza_Otomasyonu\Pizza_Otomasyonu\obj\Debug\Pizza_Otomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\Sty\source\repos\Pizza_Otomasyonu\Pizza_Otomasyonu\obj\Debug\Pizza_Otomasyonu.exe
+C:\Users\Sty\source\repos\Pizza_Otomasyonu\Pizza_Otomasyonu\obj\Debug\Pizza_Otomasyonu.pdb
+C:\Users\Sty\source\repos\Pizza_Otomasyonu\Pizza_Otomasyonu\obj\Debug\Pizza_Otomasyonu.csprojAssemblyReference.cache
